@@ -18,7 +18,7 @@ metadata:
     stack: frontend
     app: spinnaker
   annotations:
-    strategy.spinnaker.io/versioned: true
+    strategy.spinnaker.io/versioned: 'true'
 spec:
   replicas: 3
   selector:
